@@ -12,6 +12,7 @@ public class git_integration {
 		int c = a + b;
 		System.out.println(c);
 		Assert.assertEquals(30, a+b);
+		System.out.println("integrating gt with jenkins");
 		
 		
 			
