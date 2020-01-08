@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class test_class1 {
-	@Test(retryAnalyzer=analyser.testanalyser.class )
+	@Test
 	public void launch_chrome() {
 		
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\My\\Downloads\\chromedriver_win32\\chromedriver.exe");
