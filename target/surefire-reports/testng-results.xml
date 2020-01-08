@@ -2,25 +2,25 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="2311" started-at="2020-01-06T20:16:13Z" finished-at="2020-01-06T20:16:15Z">
+  <suite name="TestSuite" duration-ms="7609" started-at="2020-01-08T18:11:31Z" finished-at="2020-01-08T18:11:38Z">
     <groups>
     </groups>
-    <test name="sample" duration-ms="2311" started-at="2020-01-06T20:16:13Z" finished-at="2020-01-06T20:16:15Z">
+    <test name="sample" duration-ms="7609" started-at="2020-01-08T18:11:31Z" finished-at="2020-01-08T18:11:38Z">
       <class name="practse_maven.login_fb">
-        <test-method status="FAIL" signature="login()[pri:0, instance:practse_maven.login_fb@47f37ef1]" name="login" duration-ms="2266" started-at="2020-01-06T20:16:13Z" finished-at="2020-01-06T20:16:15Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="login()[pri:0, instance:practse_maven.login_fb@47f37ef1]" name="login" duration-ms="7477" started-at="2020-01-08T18:11:31Z" finished-at="2020-01-08T18:11:38Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[unknown error: cannot find Chrome binary
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
   (Driver info: chromedriver=77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 717 milliseconds
+Command duration or timeout: 3.59 seconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'My-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
   (Driver info: chromedriver=77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 717 milliseconds
+Command duration or timeout: 3.59 seconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'My-PC', ip: '192.168.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -53,7 +53,7 @@ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:62
 at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listeners_demo.first_testcases">
+      <class name="maven_testng.test_class1">
         <methods>
-          <include name="test2"/>
+          <include name="launch_chrome"/>
         </methods>
-      </class> <!-- listeners_demo.first_testcases -->
+      </class> <!-- maven_testng.test_class1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

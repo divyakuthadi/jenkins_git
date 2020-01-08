@@ -1,6 +1,9 @@
 practse_maven\demo1.class
 selenium_mj\jenkins2.class
+analyser\annotationTransfor.class
 selenium_mj\jenkins1.class
+analyser\testanalyser.class
+jenkins_get\git_integration.class
 maven_testng\testclass_2.class
 practse_maven\login_fb.class
 practse_maven\demo2.class
